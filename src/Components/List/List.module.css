@@ -1,0 +1,83 @@
+.list{
+    background-color: #EBECF0;
+    width: 282px;
+    max-height: 300px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-y:auto;
+
+}
+.title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.task{
+    background-color: white;
+    margin: 15px auto;
+    border-radius: 5px;
+    padding: 7px;
+    color: black;
+}
+
+.addButton{
+    width: 100px;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    border: transparent;
+    color: #5E6C84;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+.addButton:hover{
+    color: white;
+    background-color: #0079BF;
+}
+.inactiveButton{
+    width: 100px;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    border: transparent;
+    color: #5E6C84;
+    background-color: white;
+    border-radius: 8px;
+}
+.inactiveButton:hover{
+    background-color: #ded5d5;
+}
+
+.inactiveButton:disabled{
+
+}
+
+
+
+.select{
+    width: 240px;
+    height: 35px;
+    background-color: white;
+    margin: 15px auto;
+    border-radius: 5px;
+    padding: 7px;
+    color: black;
+}
+
+.taskLink {
+    text-decoration: none;
+}

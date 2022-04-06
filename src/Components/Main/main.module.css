@@ -1,0 +1,10 @@
+.main {
+    padding-top: 20px;
+    height: 742px;
+    background-color: #0079BF;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    overflow: hidden;
+
+}

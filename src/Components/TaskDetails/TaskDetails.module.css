@@ -1,0 +1,115 @@
+
+.tdWrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1181px;
+    height: 548px;
+    background-color: #EBECF0;
+}
+
+.tdTask{
+    padding: 6px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.tdTitle{
+    margin: 22px 0 0 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.tdParagraf{
+    margin: 35px 0 0 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.tdEditButton{
+    margin: 10px 0 0 25px;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    border: transparent;
+    color: #5E6C84;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.tdEditButton:hover{
+    color: white;
+    background-color: #0079BF;
+}
+
+.tdForm{
+    margin: 35px 0 0 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.tdTextarea{
+    border: none;
+    border-radius: 8px;
+    min-width: 400px;
+    min-height: 200px;
+
+}
+
+.tdSubmitButton{
+    margin: 10px 0 0 0;
+    height: 25px;
+    width: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    border: transparent;
+    color: #5E6C84;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.tdSubmitButton:hover{
+    color: white;
+    background-color: #0079BF;
+}
+
+
+
+.tdBack {
+    margin: 17px 23px 0 0;
+    background-color: #EBECF0;
+    color: black;
+    border: transparent;
+    width: 20px;
+    height: 20px;
+}
+
+.tdLink{
+    text-decoration: none;
+}

@@ -1,0 +1,60 @@
+.typeOfTasks {
+    background: #EBECF0;
+    border-radius: 10px;
+    width: 282px;
+    min-height: 197px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    margin-left: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.input{
+    padding: 6px;
+    width: 258px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border-width: 0;
+    margin: 10px auto 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    /*display: block;*/
+}
+.inputRemove {
+    display: none;
+}
+
+
+.button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5E6C84;
+    margin: 15px 0 0 15px;
+    width: 102px;
+    height: 29px;
+    background-color: #EBECF0;
+    border-radius: 5px;
+    border: transparent;
+    background-image: url("../../images/plusprebutton.svg") ;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: left;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+}
